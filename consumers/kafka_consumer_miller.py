@@ -51,11 +51,6 @@ def get_kafka_consumer_group_id() -> int:
 def process_message(message: str) -> None:
     """
     Process a single message.
-
-    For now, this function simply logs the message.
-    You can extend it to perform other tasks, like counting words
-    or storing data in a database.
-
     Args:
         message (str): The message to process.
     """
