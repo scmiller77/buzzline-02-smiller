@@ -65,11 +65,23 @@ def generate_messages(producer, topic, interval_secs):
 
     """
     string_list: list = [
-        "I love Python!",
-        "Kafka is awesome.",
-        "Streaming data is fun.",
-        "This is a buzz message.",
-        "Have a great day!",
+        "The Denver Nuggets are going to reclaim the title this year",
+        "Go KC Chiefs, yeah!!!",
+        "The Timberwolves aren't down and out, yet. They'll bounce back",
+        "The Jazz will have a comeback season next year!",
+        "The Knicks are going to win it all",
+        "I haven't looked but I bet the Wizards are doing great!",
+        "The celtics are going to go back to back!",
+        "It's Cleveland's year.",
+        "I'm pulling to the Clippers!",
+        "OKC Thunder let's goooo",
+        "Rockets to the moon!",
+        "LeBron and Bronny magic, let's see it!",
+        "The suns are lookin HOT",
+        "Grizzlies are going to destroy the competition come playoffs",
+        "Come on, Heat. Quit giving me a stroke",
+        "Is MJ still on the Bulls?",
+        "I believe in that Orlando MAGIC!"
     ]
     try:
         while True:
