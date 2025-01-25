@@ -55,11 +55,11 @@ def process_message(message: str) -> None:
         message (str): The message to process.
     """
     if "Chiefs" in message:
-        logger.info(f"Are you lost? That's not the NBA! - {message}")
+        logger.info(f"Are you lost? That's not the NBA! - '{message}'")
     elif "Wizards" in message or "Jazz" in message:
-        "That's a bold prediction, Cotton. Let's see if it pays off!"
+        logger.info(f"That's a bold prediction, Cotton. Let's see if it pays off! - '{message}'")
     else:
-        logger.info(f"Fan note logged! - {message}")
+        logger.info(f"Fan note logged! - '{message}'")
 
 
 #####################################

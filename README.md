@@ -1,4 +1,4 @@
-# buzzline-02-case
+# buzzline-02-miller
 
 Streaming data is often too big for any one machine. 
 A streaming platform helps organize our pipelines.
@@ -10,6 +10,8 @@ A common pattern for managing streaming pipelines is publish-subscribe, similar 
 
 In this project, we use Apache Kafka, a popular, open-source streaming platform.
 We write producers that send data to topics and consumers that read from topics.
+
+Specifically, you will find example fan messages for NBA teams in coming from the producer, and the consumer will make note of the messages and comment on outliers.
 
 > Kafka needs space - it's big. We'll use the Windows Subsystem for Linux on Windows machines. 
 
@@ -55,13 +57,13 @@ Use the commands below to activate .venv, and start the producer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m producers.kafka_producer_case
+py -m producers.kafka_producer_miller
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.kafka_producer_case
+py -m producers.kafka_producer_miller
 ```
 
 ## Task 5. Start a Kafka Consumer
